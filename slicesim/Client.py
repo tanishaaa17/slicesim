@@ -8,6 +8,7 @@ class Client:
     def __init__(self, pk, env, x, y, mobility_pattern,
                  usage_freq,
                  subscribed_slice_index, stat_collector,
+                 # hello 
                  base_station=None):
         self.pk = pk
         self.env = env
